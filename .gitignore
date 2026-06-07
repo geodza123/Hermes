@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+# Node
+node_modules/
+# Env / secrets
+.env
+*.env
+!.env.example
+secrets.env
+# OS / logs
+.DS_Store
+*.log
+# Vendored git of forks (kept local)
