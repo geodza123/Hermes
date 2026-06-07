@@ -1,0 +1,11 @@
+name: perplexity
+version: 1.0.0
+description: "Perplexity Sonar research — synthesized, citation-backed answers with per-call token & USD cost accounting. Always returns source links."
+author: Georgiy (via Octeday)
+kind: standalone
+provides_tools:
+  - perplexity_research
+provides_commands:
+  - pplx-usage
+requires_env:
+  - PERPLEXITY_API_KEY
